@@ -21,7 +21,7 @@ exports.handler = async function(event, context) {
         httpMethod,
         headers,
         queryStringParameters,
-        body: JSON.parse(data)
+        body: data
       })
     }
   }
